@@ -21,7 +21,7 @@ else ifeq ($(shell uname -s),Linux)
 
 else ifeq ($(shell uname -s),Darwin)
     CFLAGS =
-    LDFLAGS = -lcurses
+    LDFLAGS = -lncurses
     TARGET = viva
     RM = rm -f
 endif
